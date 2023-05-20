@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent { label "jslave1"}
    
     environment{
         SCANNER_HOME= tool 'sonar-scanner'
